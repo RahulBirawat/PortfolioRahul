@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./portfolio.png">
+    <script src="https://kit.fontawesome.com/2e1f7181be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Nav Section -->
+        <div class="nav_bar">
+            <h1>Portfolio</h1>
+            <div class="nav_icons">
+                <a href="./index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <a href="#contact"><button id="contact_btn">Contact me</button></a>
+            <div class="menu_bar">
+                <img src="./menu.png" alt="">
+            </div>
+            <div class="close_btn">
+                <img src="./delete (1).png" alt="">
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <h2>Hello I am Rahul Birawat ,</h2>
+            <h2>A Passionate Web Developer</h2>
+            <a href="file:///C:/Users/91941/Desktop/RahulResume.pdf"><button>Download Resume</button></a>
+        </div>
+
+        <!-- About Section -->
+        <div id="about">
+            <h2>About Me</h2>
+            <p>My name is Rahul Birawat. I am 2nd Year undergraduate in Computer Science and Engineering(CSE) at SVNIT Surat. I am passionate in developing websites . Also I have keen interest in Problem Solving / Data Structures and Algorithms in C++. You can download my resume by clicking <a href="">Resume</a>. My hobbies include playing Table Tennis and Badminton.</p>
+            <h2>Social Media Links: </h2>
+            <div class="social_media">
+                <div class="box">
+                    <img src="./linkedin (3).png" alt="">
+                    <a href="https://www.linkedin.com/in/rahul-birawat-5620ba250/">Linkedin</a>
+                </div>
+                <div class="box">
+                    <img src="./instagram (1).png" alt="">
+                    <a href="https://www.instagram.com/birawat27/">Instagram</a>
+                </div>
+                <div class="box">
+                    <img src="./github-sign.png" alt="">
+                    <a href="https://github.com/RahulBirawat">Github</a>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <h2>My Projects: </h2>
+            <div class="projects_section" id="projects">
+                    <h3>Learnify</h3>
+                        <p>Learnify is an educational platform built on the technologies like html , css and javascript</p>
+                        <div class="git_link">
+                            <h3>Github Link: </h3>
+                            <a href="https://rahulbirawat.github.io/Learnify/">https://rahulbirawat.github.io/Learnify/</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <h2 id="contact_h2">Contact Me</h2>
+        <div class="contact_form" id="contact">
+            <div class="image">
+                <img src="./contact.png" alt="">
+            </div>
+            <form action="">
+                <div class="inputs">
+                    <label for="f_name">Name : </label>
+                    <input type="text" id="f_name">
+                </div>
+                <div class="inputs">
+                    <label for="email">Email : </label>
+                    <input type="email" id="email">
+                </div>
+                <div class="inputs">
+                    <label for="Mobile">Phone : </label>
+                    <input type="text" id="Mobile">
+                </div>
+                <textarea id="type_message" cols="30" rows="10" placeholder="Type Your Message here"></textarea>
+                <a href=""><button>Send Message</button></a>
+            </form>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <img src="./copyright.png" alt="">
+            <p>2024 Rahul Birawat All rights reserved</p>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
