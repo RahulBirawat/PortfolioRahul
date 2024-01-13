@@ -1,8 +1,10 @@
 let menu_btn = document.querySelector(".menu_bar img");
-let close_btn = document.querySelector(".close_btn img");
+let close_btn = document.querySelector(".close_btn");
 let nav_bar = document.querySelector(".nav_bar");
 let nav_icons = document.querySelector(".nav_icons");
 let contact_btn = document.querySelector("#contact_btn");
+let logo = document.querySelector(".nav_bar h1");
+console.log(logo);
 menu_btn.addEventListener("click" , () => {
     nav_bar.style.height = "auto";
     nav_bar.style.width = "100%";
@@ -25,6 +27,20 @@ menu_btn.addEventListener("click" , () => {
     close_btn.style.position = "relative";
     close_btn.style.top = "0";
     close_btn.style.right = "0";
+    close_btn.style.left = "8rem";
     close_btn.style.float = "right";
     contact_btn.style.display = "block";
 })
+close_btn.addEventListener("click", () => {
+    nav_icons.style.display = "none";
+    contact_btn.style.display = "none";
+    menu_btn.style.display = "block";
+    close_btn.style.display = "none";
+    menu_btn.style.top = "0";
+    menu_btn.style.right = "0";
+    menu_btn.style.left = "8rem";
+    menu_btn.style.float = "right";
+    nav_bar.style.display = "flex";
+    nav_bar.style.flexDirection = "row";
+    menu_btn.style.width = "80%";
+});
