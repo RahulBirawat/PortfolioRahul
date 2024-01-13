@@ -78,14 +78,15 @@ a{
     word-spacing: 0.5rem;
     color:#2f3542;
 }
-.hero button{
+.hero a{
     padding:0.9rem 3rem;
     border:2px solid #2f3542;
     border-radius:3rem;
     font-size:1.4rem;
     font-weight: 600;
+    color:#2f3542;
 }
-.hero button:hover{
+.hero a:hover{
     background-color: #3867d6;
     color:white;
     border:2px solid #fff;
@@ -265,7 +266,7 @@ form button{
         font-size:1.4rem;
         text-align: center;
     }
-    .hero button{
+    .hero a{
         padding:0.6rem 2rem;
     }
     #about{
